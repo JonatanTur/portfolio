@@ -41,6 +41,6 @@ def submit_form():
         except:
             return 'did not save to database'
     else:
-        return 'something went wrong'
+        return 'something went wrong here'
 
 # flask --app main run --debug
